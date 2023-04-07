@@ -112,7 +112,6 @@ function main() {
   const asanaProjectSectionNames = ["Backlog", "In Progress", "Done"];
 
   const slackUsername = scriptProperties.getProperty("SLACK_USERNAME");
-  // need the permissions ["users:read", "chat:write"]
   const slackBotToken = scriptProperties.getProperty("SLACK_BOT_TOKEN");
   const slackChannelName = scriptProperties.getProperty("SLACK_CHANNEL_NAME");
   
